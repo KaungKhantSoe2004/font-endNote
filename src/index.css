@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: linear-gradient(90deg, rgba(150, 12, 131) 0%, rgba(190, 14, 149) 35%, rgba(0,212,255,1) 100%);
+}
+.body{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 80vh;
+}
+.addNote{
+  background-color: rgb(32, 205, 69);
+  cursor: pointer;
+  padding: 10px;
+border-radius: 4px;
+}
+input{
+width: 30vh;
+height: 20px;
+border-radius: 3px;
+padding: 2px;
+}
+button{
+  padding: 5px;
+  margin-left: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cancel{
+  background-color: rgb(206, 206, 6);
+}
+.save{
+  background-color: rgb(34, 34, 174);
+}
+.eachNoteContainer{
+  display: flex;
+  flex-direction: row;
+  width:200px;
+  justify-content: space-between;
+margin-bottom: 8px;
+}
+.eachNote{
+  display: inline;
+  font-size: 1.9rem;
+}
+.delete{
+  background-color: rgb(198, 24, 24);
+}
+.edit{
+  background-color: aqua;
+}
+.ialContainer{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.error{
+  color: rgb(141, 7, 7);
+}
+.ialContainer button:hover{
+background-color: aqua;
+}
+.ialContainer input{
+  border-radius: 4px;
+  margin-bottom: 5px;
+  width: 40vh;
+  padding-left: 4px;
+  display: block;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+ margin: 10px;
+}
+.footer{
+  text-decoration: underline;
+  padding: 2px;
+  cursor: pointer;
+  font-size: large;
+}
+.header{
+  padding: 3px;
+  font-size: large;
+}
+.footer:hover{
+  color: red;
+}
+.logOut:hover{
+  background-color: rgb(231, 76, 4);
+}
